@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','Music_search@index/{nombre}/{apellido}');
+Route::get('/','Music_search@index');
 Route::get('/ver',function(){
 
 		return view('home');

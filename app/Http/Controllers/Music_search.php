@@ -10,9 +10,9 @@ class Music_search extends Controller
 {
    
 
-	public  function index($nombre,$apellido){
+	public  function index(){
 
-
+			$nombre = "EDISON";
 	 			return view('index',['toto'=>$nombre]);
 	}
 
